@@ -14,6 +14,10 @@
     - GPS time and locations are commented in rangetest plugin due to conflicting time sync between devices
     - `firmware.bin` in build directory is then explicitly used to test the devices in various scenarios
     - Modifications are made to do automatic tests for academic/scientific purpose
+
+### Test setup
+- [meshtastic_tester](https://github.com/yashfafola/Meshtastic-Data-Processing): A software developed to execute field tests on LoRa devices and collect data.
+- In addition to this *meshtastic_tester* program, the app also contains *meshtasticdataprocessing* program to process the data in a usable format.
 ---
 
 ## This repository contains the device firmware used in the [Meshtastic](https://meshtastic.org) project.
